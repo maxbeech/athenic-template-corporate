@@ -7,10 +7,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 // Hero video paths in the slider folder
 const heroMedia = [
-  '/media/home_hero_slider/8286485-hd_1280_720_30fps.mp4',
-  '/media/home_hero_slider/12603667_1280_720_30fps.mp4',
-  '/media/home_hero_slider/12641528_1280_720_25fps.mp4',
-  '/media/home_hero_slider/4961476-sd_960_540_30fps.mp4',
+  '/media/index_hero_slider/8286485-hd_1280_720_30fps.mp4',
+  '/media/index_hero_slider/12603667_1280_720_30fps.mp4',
+  '/media/index_hero_slider/12641528_1280_720_25fps.mp4',
+  '/media/index_hero_slider/4961476-sd_960_540_30fps.mp4',
 ];
 
 const IndexHero = () => {
