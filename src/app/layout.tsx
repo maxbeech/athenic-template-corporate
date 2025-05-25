@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter, Libre_Baskerville } from 'next/font/google'
 import './globals.css'
-import Navbar from '@/components/Navbar'
+import Navbar from '@/components/layout/Header'
 import Image from 'next/image'
 import Link from 'next/link'
 

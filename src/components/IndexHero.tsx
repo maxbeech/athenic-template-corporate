@@ -13,7 +13,7 @@ const heroMedia = [
   '/media/home_hero_slider/4961476-sd_960_540_30fps.mp4',
 ];
 
-const Hero = () => {
+const IndexHero = () => {
   const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
   const [isClient, setIsClient] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -171,4 +171,4 @@ const Hero = () => {
   );
 };
 
-export default Hero; 
+export default IndexHero; 

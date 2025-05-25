@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import Hero from '@/components/Hero';
+import IndexHero from '@/components/IndexHero';
 import { 
   ShieldCheckIcon, 
   BookOpenIcon, 
@@ -196,8 +196,8 @@ export default function Home() {
 
   return (
     <>
-      {/* Hero Section */}
-      <Hero />
+      {/* IndexHero Section */}
+      <IndexHero />
       
       {/* Mission Section */}
       <section className="py-20 bg-white">
