@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import IndexHero from '@/components/IndexHero';
+import IndexHero from '@/components/layout/IndexHero';
 import { 
   ShieldCheckIcon, 
   BookOpenIcon, 
